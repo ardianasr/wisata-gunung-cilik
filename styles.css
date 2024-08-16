@@ -800,6 +800,9 @@ footer {
 
 /* Media Queries for Tablets */
 @media only screen and (max-width: 768px) {
+    .marquee-container, .marquee-wrapper, .marquee-text {
+        font-size: 10px;
+    }
     .header nav {
         text-align: center;
         margin: 0;
@@ -844,6 +847,10 @@ footer {
 
 /* Media Queries for Mobile Phones */
 @media only screen and (max-width: 480px) {
+    .marquee-container, .marquee-wrapper, .marquee-text {
+        font-size: 8px;
+    }
+
     .header .logo {
         font-size: 20px;
         margin-left: 10px;
