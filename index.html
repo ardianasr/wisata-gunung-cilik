@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Wisata Alam Gunung Cilik</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <style>
+            /* Tambahkan CSS ini untuk menambahkan margin atas saat scroll */
+            #about,
+            #vision,
+            #features,
+            #facilities,
+            #testimonials,
+            #location,
+            #contact {
+                scroll-margin-top: 11vh; /* Sesuaikan 80px dengan tinggi header */
+            }
+        </style>
+    </head>
+    <body>
+        <header class="header">
+            <img src="Gambar/logogunungcilik2.png" alt="logo" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Beranda</a></li>
+                    <li><a href="#about">Sejarah</a></li>
+                    <li><a href="#vision">Visi & Misi</a></li>
+                    <li><a href="#features">Wisata</a></li>
+                    <li><a href="#location">Lokasi</a></li>
+                    <li><a href="#contact">Kontak</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+    <section class="body1">
+        <div class="body1_1">
+            <h1>Wisata Alam Gunung Cilik</h1>
+            <p>A Thousand Panoramas in One Point</p>
+        </div>
+    </section>
+    <style>
+        .marquee-container {
+            background-color: #EDE6DB;
+            overflow: hidden;
+            white-space: nowrap;
+            padding: 1.5vh 0;
+        }
+    
+        .marquee-wrapper {
+            display: flex;
+            width: 300%; /* Lebar 2x dari container untuk memungkinkan looping */
+            animation: marquee 50s linear infinite;
+        }
+    
+        .marquee-text {
+            display: inline-block;
+            font-size: 1em;
+            font-family: 'Poppins', sans-serif;
+            color: #000;
+            letter-spacing: 0.1vh;
+            padding-right: 2em; /* Ruang antara salinan teks */
+        }
+    
+        @keyframes marquee {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(-100%); } 
+        }
+    </style>
+    
+    <!-- Marquee CSS -->
+    <div class="marquee-container">
+        <div class="marquee-wrapper">
+            <div class="marquee-text">
+                Selamat Datang di Gunung Cilik | Temukan keindahan pegunungan dan kebun teh yang memukau | Jadikan Gunung Cilik tujuan wisata Anda dan rasakan pesonanya!
+            </div>
+            <div class="marquee-text">
+                Selamat Datang di Gunung Cilik | Temukan keindahan pegunungan dan kebun teh yang memukau | Jadikan Gunung Cilik tujuan wisata Anda dan rasakan pesonanya!
+            </div>
+        </div>
+    </div>
+        
+
+    <section id="panorama" class="panorama">
+        <h2>Panorama Gunung Cilik</h2>
+        <div class="gallery">
+            <div class="gallery-item">
+                <video autoplay loop muted controls>
+                    <source src="Video/video1.mp4" type="video/mp4">
+                    Browser Anda tidak mendukung tag video.
+                </video>
+            </div>
+            <div class="gallery-item">
+                <video autoplay loop muted controls>
+                    <source src="Video/panorama2.mp4" type="video/mp4">
+                    Browser Anda tidak mendukung tag video.
+                </video>
+            </div>
+            <div class="gallery-item">
+                <video autoplay loop muted controls>
+                    <source src="Video/panorama3.mp4" type="video/mp4">
+                    Browser Anda tidak mendukung tag video.
+                </video>
+            </div>
+            
+            <div class="gallery-item">
+                <video autoplay loop muted controls>
+                    <source src="Video/panorama 4.mp4" type="video/mp4">
+                    Browser Anda tidak mendukung tag video.
+                </video>
+            </div>
+            <div class="gallery-item">
+                <video autoplay loop muted controls>
+                    <source src="Video/panorama5.mp4" type="video/mp4">
+                    Browser Anda tidak mendukung tag video.
+                </video>
+            </div>
+            
+            
+        </div>
+    </section>
+    
+        <section id="about" class="about">
+            <div class="container">
+                <div class="about-foto">
+                    <img src="Gambar/Sejarah.jpeg" alt="Gunung Cilik">
+                    <div class="about-overlay">
+                        <div class="about-left">
+                            <img src="Gambar/logogunungcilik2.png" alt="Logo Gunung Cilik">
+                        </div>
+                        <div class="about-right">
+                            <div class="about-right-box">
+                                <h2>Sejarah Wisata Gunung Cilik</h2>
+                                <p>Gunung cilik adalah sebuah bukit yang menjadi aset desa damarkasiyan, yang sebelumnya dikelola oleh petani sebagai lahan pertanian. Gunung Cilik menawarkan pemandangan indah dengan kebun teh sebagai latar belakang. Dinamakan "Gunung Cilik" karena ketinggiannya 1.550 mdpl dan bentuk kerucutnya. Inisiatif menjadikan objek wisata dimulai oleh pemuda Desa Damariskayan, dan kini dikelola oleh Badan Usaha Milik Desa (BUMDES) Desa Damariskayan.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+                
+        <section id="vision" class="vision">
+            <div class="tabs">
+                <button class="tab-button active" onclick="openTab(event, 'visiMisi')">Visi dan Misi</button>
+                <button class="tab-button" onclick="openTab(event, 'strukturOrganisasi')">Struktur Organisasi</button>
+            </div>
+        
+            <div id="visiMisi" class="tab-content active">
+                <p class="section-title">"Visi"</p>
+                    <p>Mewujudkan desa yang mandiri dan meningkatkan taraf perekonomian masyarakat</p>
+                    <p class="section-title">"Misi"</p>
+                <p>1. Memanfaatkan potensi sumber daya manusia yang ada di desa sebagai asset pengerak ekonomi lokal</p>
+                <p>2. Mendorong tumbuhnya inisiatif dan inovasi produk lokal sehingga memiliki daya saing yang tinggi baik tingkat, nasional, regional, maupun lokal</p>
+                <p>3. Meningkatkan kompetisi dan daya saing usaha pedesaan secara mandiri dan professional</p>
+                <p>4. Mewujudkan sinergi dan jejaring antar BUMDes dan usaha lain untuk menjalin hubungan yang saling menguntungkan</p>
+                <p>5. Meningkatkan ketahanan ekonomi dengan mengalakkan usaha ekonomi kerakyatan melalui program strategi di bidang pertanian, pemasaran, usaha kecil dan menegah, serta pariwisata.</p>
+            </div>
+        
+            <div id="strukturOrganisasi" class="tab-content">
+                <img src="Gambar/struktur organisasi.png" alt="organisasi" class="organisasi">
+            </div>
+        </section>        
+        
+        <section id="features" class="features">
+            <center><h2>Wisata Gunung Cilik</h2></center>
+            <div class="features-gallery">
+                <div class="features-item1">
+                    <div class="features-content"></div>
+                    <div class="features-text">Klik untuk detail</div>
+                </div>
+                <div class="features-item2">
+                    <div class="features-content"></div>
+                    <div class="features-text">Klik untuk detail</div>
+                </div>
+                <div class="features-item3">
+                    <div class="features-content"></div>
+                    <div class="features-text">Klik untuk detail</div>
+                </div>
+            </div>
+        </section>
+        <!-- Modal untuk feature-item1 -->
+        <div id="featureModal1" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('featureModal1')">&times;</span>
+                <h2>Detail Feature Item 1</h2>
+                <img src="Gambar/struktur organisasi.png" alt="organisasi" class="organisasi">
+            </div>
+        </div>
+        <!-- Modal untuk feature-item2 -->
+        <div id="featureModal2" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('featureModal2')">&times;</span>
+                <h2>Detail Feature Item 2</h2>
+                <p>Penjelasan lengkap mengenai feature item 2.</p>
+            </div>
+        </div>
+        <!-- Modal untuk feature-item3 -->
+        <div id="featureModal3" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('featureModal3')">&times;</span>
+                <h2>Detail Feature Item 3</h2>
+                <p>Penjelasan lengkap mengenai feature item 3.</p>
+            </div>
+        </div>
+        
+
+        <section id="facilities" class="facilities">
+            <h2>Fasilitas Gunung Cilik</h2>
+            <div class="facilities-gallery">
+                <div class="facility-item facility-item1" data-text="Mushola"></div>
+                <div class="facility-item facility-item2" data-text="Toilet"></div>
+                <div class="facility-item facility-item3" data-text="Kuliner"></div>
+                <div class="facility-item facility-item4" data-text="Parkiran"></div>
+                <div class="facility-item facility-item5" data-text="Listrik"></div>
+            </div>
+            <h3>Rental Alat Outdoor</h3>
+            <div class="facilities-rental">
+                <button class="arrow left-arrow">&#10094;</button> <!-- Tombol kiri -->
+                <div class="rental-gallery">
+                    <div class="rental-item">
+                        <img src="Gambar/tenda muatan 3.jpg" alt="Tenda Ultralight Kapasitas 3">
+                        <p>Tenda Kapasitas 3</p>
+                        <p>Rp40.000</p>
+                    </div>
+                    <div class="rental-item">
+                        <img src="Gambar/tenda muatan 4.jpg" alt="Tenda Kapasitas 4">
+                        <p>Tenda Kapasitas 4</p>
+                        <p>Rp40.000</p>
+                    </div>
+                    <div class="rental-item">
+                        <img src="Gambar/sleepingbag.jpg" alt="Sleeping Bag">
+                        <p>Sleeping Bag</p>
+                        <p>Rp10.000</p>
+                    </div>
+                    <div class="rental-item">
+                        <img src="Gambar/matras.jpg" alt="Matras">
+                        <p>Matras</p>
+                        <p>Rp5.000</p>
+                    </div>
+                    <div class="rental-item">
+                        <img src="Gambar/Carrier 60L.jpg" alt="Carrier 60L">
+                        <p>Carrier 60L</p>
+                        <p>Rp25.000</p>
+                    </div>
+                    <div class="rental-item">
+                        <img src="Gambar/Kompor Kotak.jpg" alt="Kompor Kotak">
+                        <p>Kompor Kotak</p>
+                        <p>Rp10.000</p>
+                    </div>
+                    <div class="rental-item">
+                        <img src="Gambar/Nesting.jpg" alt="Nesting">
+                        <p>Nesting</p>
+                        <p>Rp10.000</p>
+                    </div>
+                    <div class="rental-item">
+                        <img src="Gambar/Flyseet.jpg" alt="Flyseet">
+                        <p>Flyseet 3x4</p>
+                        <p>Rp10.000</p>
+                    </div>
+                    <div class="rental-item">
+                        <img src="Gambar/Tracking Pole.jpg" alt="Tracking Pole">
+                        <p>Tracking Pole</p>
+                        <p>Rp10.000</p>
+                    </div>
+                    <div class="rental-item">
+                        <img src="Gambar/Kursi Lipat 2.jpg" alt="Kursi Lipat 2">
+                        <p>Kursi Lipat 2</p>
+                        <p>Rp15.000</p>
+                    </div>
+                    <div class="rental-item">
+                        <img src="Gambar/Meja Lipat.jpg" alt="Meja Lipat">
+                        <p>Meja Lipat</p>
+                        <p>Rp5.000</p>
+                    </div>
+                    <div class="rental-item">
+                        <img src="Gambar/Head Lamp.jpg" alt="Head Lamp">
+                        <p>Head Lamp</p>
+                        <p>Rp5.000</p>
+                    </div>
+                    <div class="rental-item">
+                        <img src="Gambar/Lampu Tenda.jpg" alt="Lampu Tenda">
+                        <p>Lampu Tenda</p>
+                        <p>Rp5.000</p>
+                    </div>
+                </div>
+                <button class="arrow right-arrow">&#10095;</button> <!-- Tombol kanan -->
+            </div>
+        </section>
+
+        <section id="testimonials" class="testimonials">
+            <center><h2>Testimoni Pengunjung</h2></center>
+            <div class="testimonials-gallery">
+                <div class="testimonial-item1">
+                    <video class="background-video" autoplay loop muted playsinline>
+                        <source src="Video/testimoni-1.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="testimonial-item2">
+                    <video class="background-video" autoplay loop muted playsinline>
+                        <source src="Video/testimoni-2.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="testimonial-item3">
+                    <video class="background-video" autoplay loop muted playsinline>
+                        <source src="Video/testimoni-3.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="testimonial-item4">
+                    <video class="background-video" autoplay loop muted playsinline>
+                        <source src="Video/Testimoni 4.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="testimonial-item5">
+                    <video class="background-video" autoplay loop muted playsinline>
+                        <source src="Video/Testimoni5.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="testimonial-item6">
+                    <video class="background-video" autoplay loop muted playsinline>
+                        <source src="Video/Testimoni6.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>            
+            </div>
+
+        </section>
+        
+        <section id="location" class="parallax-section">
+            <div class="location">
+                <center><h2>Lokasi</h2></center>
+                <div class="location-gallery">
+                    <div class="map-container">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31657.697660873826!2d109.95050693048195!3d-7.330047579445459!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a9fe7a8591f81%3A0x4a3926397a947f09!2sDamarkasiyan%2C%20Kertek%2C%20Wonosobo%20Regency%2C%20Central%20Java!5e0!3m2!1sen!2sid!4v1723399659074!5m2!1sen!2sid" 
+                            width="600" 
+                            height="450" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.1681276946583!2d109.96976741041892!3d-7.335007392642927!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a9fd4802a0ee9%3A0xf3a51e707e3f0721!2sKaliurip%20Mount!5e0!3m2!1sen!2sid!4v1723399776719!5m2!1sen!2sid" 
+                        width="600" 
+                        height="450" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+        
+            <div id="contact" class="contact">
+                <div class="form-section">
+                    <h2>Hubungi Kami</h2>
+                    <form>
+                        <div class="form-group">
+                            <label for="first-name">Nama Depan</label>
+                            <input type="text" id="first-name" placeholder="">
+                        </div>
+                        <div class="form-group">
+                            <label for="last-name">Nama Belakang</label>
+                            <input type="text" id="last-name" placeholder="">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" placeholder="">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Nomor Telepon</label>
+                            <input type="text" id="phone" placeholder="">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Masukan Saran/Pertanyaan</label>
+                            <textarea id="message" placeholder="Silakan masukkan saran dan pertanyaan..."></textarea>
+                        </div>
+                        <button type="submit">Kirim</button>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <h3>Sosial Media</h3>
+                    <div style="display: flex; align-items: center;">
+                        <a href="https://wa.me/+628895379109" class="icon">
+                            <img src="Gambar/Wa.png" alt="WhatsApp" class="WA">
+                        </a>
+                        <span>+628895379109</span>
+                    </div>
+                    <div style="display: flex; align-items: center;">
+                        <a href="https://instagram.com/gunungcilik_kaliurip" class="icon">
+                            <img src="Gambar/Instagram (1).png" alt="instagram" class="IG">
+                        </a>
+                        <span>gunungcilik_kaliurip</span>
+                    </div>
+                    <div style="display: flex; align-items: center;">
+                        <a href="https://tiktok.com/gunungcilik_kaliurip" class="icon">
+                            <img src="Gambar/tiktok.png" alt="tiktok" class="TIKTOK">
+                        </a>
+                        <span>gunungcilik_kaliurip</span>
+                    </div>
+                    <div style="display: flex; align-items: center;">
+                        <a href="https://mail.com/damarkasih.bumdes@gmail.com" class="icon">
+                            <img src="Gambar/email.png" alt="email" class="Email">
+                        </a>
+                        <span>damarkasih.bumdes@gmail.com</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <footer>
+        <p>Website Resmi Badan Usaha Milik Desa Damarkasiyan</p>
+        <p>Jl. Gunung Cilik Kaliurip, Damarkasiyan, Kec. Kertek, Kabupaten Wonosobo, Jawa Tengah 56371</p>
+        <p>&copy; 2024 KKN KERTEK UGM</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
