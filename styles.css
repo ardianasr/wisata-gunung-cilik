@@ -863,6 +863,8 @@ footer {
         font-size: 8px;
     } 
     .header {
+        font-size: 20px;
+        margin-left: 10px;
         padding: 0.3em;
     }
 
@@ -870,6 +872,10 @@ footer {
         height: 6vh; /* Sesuaikan ukuran logo untuk ponsel */
     }
 
+    .header nav a {
+        padding: 1px;
+        font-size: 12px;
+    }
     header nav ul {
         justify-content: center; /* Pusatkan navigasi pada ponsel */
     }
