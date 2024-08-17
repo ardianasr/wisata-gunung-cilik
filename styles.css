@@ -803,6 +803,24 @@ footer {
     .marquee-container, .marquee-wrapper, .marquee-text {
         font-size: 10px;
     }
+     .header {
+        padding: 0.5em;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .logo {
+        height: 12vh; 
+        margin-left: 0;
+        margin-bottom: 0.5em;
+    }
+    header nav ul {
+        flex-direction: column;
+        margin-right: 0;
+    }
+    header nav ul li {
+        margin: 0.5em 0;
+    }
     .header nav {
         text-align: center;
         margin: 0;
@@ -849,8 +867,28 @@ footer {
 @media only screen and (max-width: 480px) {
     .marquee-container, .marquee-wrapper, .marquee-text {
         font-size: 8px;
+    } 
+    .header {
+        padding: 0.3em;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
     }
-
+    .logo {
+        height: 10vh; 
+        margin-left: 0;
+        margin-bottom: 0.5em;
+    }
+    header nav ul {
+        flex-direction: column;
+        margin-right: 0;
+    }
+    header nav ul li {
+        margin: 0.3em 0;
+    }
+    header nav ul li a {
+        font-size: 0.9em; /* Sesuaikan ukuran font */
+    }
     .header .logo {
         font-size: 20px;
         margin-left: 10px;
