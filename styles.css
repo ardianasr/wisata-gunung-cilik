@@ -864,16 +864,23 @@ footer {
     } 
     .header {
         padding: 0.5em;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
     }
 
     .logo {
         height: 5vh; /* Sesuaikan ukuran logo lebih kecil untuk ponsel */
         margin-left: 1em; /* Kurangi margin kiri untuk ponsel */
     }
-
+    .header nav ul li {
+        margin: 0.2em 0;
+    }
     .header nav ul li a {
-        font-size: 0.8em; /* Sesuaikan ukuran font lebih kecil untuk ponsel */
-        padding: 0.2em 0.4em; /* Kurangi padding untuk lebih kompak */
+        font-size: 0.5em; /* Ukuran font lebih kecil untuk ponsel */
+        width: 100%;
+        text-align: center;
     }
 
     .gallery-item .gallery-item1{
