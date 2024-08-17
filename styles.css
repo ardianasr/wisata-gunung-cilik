@@ -811,23 +811,19 @@ footer {
         width: 100%;
     }
     .logo {
-        height: 12vh; 
-        margin-left: 0;
-        margin-bottom: 0.5em;
-        max-width: 80%; /* Menyesuaikan ukuran logo agar tidak terlalu besar */
+        height: 8vh; /* Sesuaikan ukuran logo pada layar kecil */
     }
     header nav ul {
-        flex-direction: column;
-        margin-right: 0;
-        width: 100%; /* Agar ul mengikuti lebar layar */
+        flex-direction: column; /* Navigasi vertikal pada ponsel */
+        margin-top: 1em;
     }
     header nav ul li {
-        margin: 0.5em 0;
+        margin: 0.3em 0;
     }
     header nav ul li a {
-        padding: 0.3em 1em;
+        font-size: 0.9em; /* Ukuran font lebih kecil untuk ponsel */
         width: 100%;
-        box-sizing: border-box; /* Menghindari overflow */
+        text-align: center;
     }
     
     .gallery-item {
