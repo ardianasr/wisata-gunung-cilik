@@ -888,11 +888,14 @@ footer {
     }
 
     .body1 h1 {
-        font-size: 24px;
+        font-size: 20px;
     }
 
     .body1 p {
-        font-size: 14px;
+        font-size: 12px;
+    }
+    .panorama {  
+    font-size: 1vh;
     }
 
     .features-item, .facilities-item {
@@ -909,12 +912,12 @@ footer {
         margin: 10px auto;
     }
     .about-right-box {
-        padding: 4vh 2vh; /* Padding lebih kecil untuk HP */
+        padding: 8vh 4vh; /* Padding lebih kecil untuk HP */
     }
 
     .about-right h2 {
         font-size: 2vh; /* Lebih kecil untuk HP */
-        width: 95%; /* Lebih lebar untuk kemudahan membaca */
+        width: 80%; /* Lebih lebar untuk kemudahan membaca */
     }
 
     .about-right p {
