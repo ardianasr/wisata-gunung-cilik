@@ -866,15 +866,25 @@ footer {
         font-size: 20px;
         margin-left: 10px;
         padding: 0.3em;
+        text-align: center;
+        position: fixed; 
+        width: 100%;
+        top: 0;
+        left: 0;
+        z-index: 1000;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
 
     .logo {
         height: 6vh; /* Sesuaikan ukuran logo untuk ponsel */
+        margin-left: 3.35%;
     }
 
     .header nav a {
         padding: 1px;
-        font-size: 12px;
+        font-size: 10px;
     }
     header nav ul {
         justify-content: center; /* Pusatkan navigasi pada ponsel */
@@ -882,6 +892,7 @@ footer {
 
     header nav ul li {
         margin: 0.3em 0.5vh;
+        display: inline;
     }
 
     header nav ul li a {
