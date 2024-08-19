@@ -857,77 +857,98 @@ footer {
 
 }
 
-/* Media Queries for Mobile Phones */
-@media only screen and (max-width: 480px) {
-    .marquee-container, .marquee-wrapper, .marquee-text {
-        font-size: 8px;
-    } 
+/* Untuk perangkat phone (ukuran layar hingga 600px) */
+@media (max-width: 600px) {
+    /* Header */
     .header {
-        padding: 0.5em;
         flex-direction: column;
-        justify-content: center;
-        text-align: center;
-        width: 100%;
+        align-items: center;
     }
-
     .logo {
-        height: 5vh; /* Sesuaikan ukuran logo lebih kecil untuk ponsel */
-        margin-left: 1em; /* Kurangi margin kiri untuk ponsel */
+        height: 8vh;
     }
-    .header nav ul li {
-        margin: 0.2em 0;
-    }
-    .header nav ul li a {
-        font-size: 0.5em; /* Ukuran font lebih kecil untuk ponsel */
-        width: 100%;
-        text-align: center;
-    }
-
-    .gallery-item .gallery-item1{
+    header nav ul {
+        flex-direction: column;
         width: 100%;
     }
+    header nav ul li {
+        margin: 2vh 0;
+    }
 
-    .body1_1 h1{
-    font-weight: 800; /* Mengatur ketebalan menjadi Black */
-    font-size: 1.5vw; /* Mengatur ukuran font */
-    margin-bottom: 1vh;
-    font-weight: bold;  /* Membuat teks bold */
-    /* Efek Inner Shadow */
-    text-shadow: 0.1vh 0.1vh 0.1vh rgba(0, 0, 5, 0.7), -1px -1px 2px rgba(0, 0, 0, 0.7);
+    /* Section Body */
+    .body1 {
+        padding: 25vh 5vw;
+        font-size: 4vw;
+    }
+    .body1_1 h1 {
+        font-size: 6vw;
     }
     .body1_1 p {
-    font-size: 1vw;
-    /* Efek Inner Shadow */
-    text-shadow: 0.1vh 0.1vh 0.2vh rgba(0, 0, 5, 0.7), -1px -1px 2px rgba(0, 0, 0, 0.7);
-    font-style: italic; /* Membuat teks italic */
-    }
-    .panorama {  
-    font-size: 0.5vh;
+        font-size: 3vw;
     }
 
-    .features-item, .facilities-item {
+    /* Gallery */
+    .gallery-item {
         width: 100%;
-        text-align: center;
+        height: 25vh;
     }
 
-    .rental-gallery {
-        overflow-x: scroll;
+    /* Features */
+    .features-gallery {
+        flex-direction: column;
+        gap: 5vh;
     }
-    
-    .rental-gallery img {
+    .features-item1, .features-item2, .features-item3 {
+        width: 90%;
+        height: 25vh;
+    }
+
+    /* Facilities */
+    .facility-item {
+        width: 90%;
+        height: 25vh;
+        margin: 2vh auto;
+    }
+    .facilities h2 {
+        font-size: 3.5vh;
+    }
+
+    /* Rental Section */
+    .rental-gallery {
+        flex-direction: column;
+    }
+    .rental-item {
+        width: 90%;
+        height: 25vh;
+        margin: 2vh auto;
+    }
+
+    /* About Section */
+    .about-foto {
+        height: 30vh;
+    }
+    .about-left img {
         width: 80%;
-        margin: 10px auto;
     }
     .about-right-box {
-        padding: 8vh 4vh; /* Padding lebih kecil untuk HP */
+        padding: 5vh;
     }
-
     .about-right h2 {
-        font-size: 1vh; /* Lebih kecil untuk HP */
-        width: 80%; /* Lebih lebar untuk kemudahan membaca */
+        font-size: 4vh;
+    }
+    .about-right p {
+        font-size: 2.5vh;
     }
 
-    .about-right p {
-        font-size: 1vh; /* Ukuran font lebih kecil untuk HP */
+    /* Tabs Section */
+    .tab-button {
+        font-size: 2vh;
+        padding: 1vh;
+    }
+    .tab-button.active {
+        font-size: 2.5vh;
+    }
+    .tab-content p {
+        font-size: 2vh;
     }
 }
