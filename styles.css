@@ -857,35 +857,24 @@ footer {
 
 }
 
-@media screen and (max-width: 768px) {
+/* Mobile responsive */
+@media (max-width: 600px) {
     .header {
-        padding: 0.5em 1em; /* Kurangi padding untuk perangkat mobile */
-        height: 10vh; /* Tetapkan tinggi header fixed untuk perangkat mobile */
-        flex-direction: column; /* Atur header agar vertikal */
-        align-items: flex-start; /* Mulai item dari kiri */
+        padding: 10px; /* Mengurangi padding pada header */
     }
 
-    /* Ukuran logo di mobile */
     .logo {
-        height: 8vh; /* Ukuran logo lebih kecil untuk mobile */
-        margin-left: 0;
+        height: 6vh; /* Sesuaikan ukuran logo agar lebih kecil */
+        margin-left: 5px;
     }
 
-    /* Menu navigasi di mobile */
     header nav ul {
-        flex-direction: column; /* Atur menu menjadi vertikal */
-        width: 100%; /* Lebarkan menu untuk memenuhi layar */
-        margin-right: 0;
-    }
-
-    header nav ul li {
-        margin: 0.5vh 0; /* Kurangi margin antar item menu */
+        margin-right: 5px;
     }
 
     header nav ul li a {
-        padding: 0.5em 0; /* Tambahkan padding agar lebih mudah diklik */
-        text-align: left; /* Atur teks menjadi rata kiri */
-        width: 100%; /* Lebarkan menu untuk memenuhi layar */
+        padding: 6px 8px; /* Mengurangi padding pada link */
+        font-size: 14px; /* Mengurangi ukuran font pada link */
     }
 
     /* Section Body */
