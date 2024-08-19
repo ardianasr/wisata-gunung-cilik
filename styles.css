@@ -869,16 +869,17 @@ footer {
     }
 
     header nav ul {
-        margin-right: 5px;
+        margin-right: 2px;
     }
 
     header nav ul li a {
-        padding: 6px 8px; /* Mengurangi padding pada link */
-        font-size: 14px; /* Mengurangi ukuran font pada link */
+        padding: 4px 6px; /* Mengurangi padding pada link */
+        font-size: 10px; /* Mengurangi ukuran font pada link */
     }
 
     /* Section Body */
     .body1 {
+        width: 100%;
         padding: 25vh 5vw;
         font-size: 4vw;
     }
