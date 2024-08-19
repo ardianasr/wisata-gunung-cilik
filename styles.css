@@ -859,8 +859,8 @@ footer {
 
 /* Mobile responsive */
 @media (max-width: 600px) {
-    .header {
-        padding: 10px; /* Mengurangi padding pada header */
+        .header {
+    padding: 1em 1.5em; /* Atur padding yang lebih kecil */
     }
 
     .logo {
